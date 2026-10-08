@@ -1,0 +1,12 @@
+{
+  "name": "nexa",
+  "version": "1.0.0",
+  "description": "NEXA Intelligent Event Marketplace",
+  "main": "api/matching.js",
+  "scripts": {
+    "start": "node api/matching.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
