@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "api/matching.js": {
+      "runtime": "nodejs20.x"
+    }
+  },
+  "routes": [
+    {
+      "src": "/api/matching",
+      "dest": "/api/matching.js"
+    }
+  ]
+}
