@@ -1,14 +1,3 @@
 {
-  "version": 2,
-  "functions": {
-    "api/matching.js": {
-      "runtime": "nodejs24.x"
-    }
-  },
-  "routes": [
-    {
-      "src": "/api/matching",
-      "dest": "/api/matching.js"
-    }
-  ]
+  "$schema": "https://openapi.vercel.sh/vercel.json"
 }
